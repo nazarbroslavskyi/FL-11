@@ -224,7 +224,7 @@
 	.heading ol a {
 		text-decoration: none;
 		pointer-events: none;
-		cursor: default;
+		
 	}
 
 	.heading ol a:hover {
