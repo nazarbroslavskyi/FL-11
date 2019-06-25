@@ -1,0 +1,99 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif; }
+
+html {
+  overflow-x: hidden; }
+
+.header {
+  background-image: url("../img/m-h-day.jpg");
+  height: 92.8vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 50%;
+  border-bottom-right-radius: 750px 340px; }
+  .header .header-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 80%;
+    margin: 0 auto; }
+    .header .header-wrap .landing-logo {
+      display: flex;
+      margin-top: 26px; }
+      .header .header-wrap .landing-logo img {
+        height: 100%;
+        width: 56px; }
+      .header .header-wrap .landing-logo p {
+        margin-left: 21px;
+        margin-top: 2px;
+        display: flex;
+        flex-direction: column;
+        font-size: 1.6rem;
+        font-weight: 600;
+        font-family: sans-serif; }
+        .header .header-wrap .landing-logo p span {
+          font-size: 0.8rem;
+          font-weight: 400;
+          margin-left: 12px;
+          margin-top: 5px; }
+    .header .header-wrap .header_heading {
+      margin-top: 94px;
+      color: #2c2f3c;
+      font-weight: 800;
+      width: 700px;
+      line-height: 5.4rem;
+      font-family: 'Source Sans Pro', sans-serif;
+      font-size: 5.5rem;
+      font-style: bold;
+      letter-spacing: 2px;
+      margin-left: 3px;
+      position: relative;
+      z-index: 4; }
+      .header .header-wrap .header_heading::before {
+        width: 54%;
+        content: '';
+        background-color: #14a0c7;
+        height: 30px;
+        z-index: -1;
+        bottom: -2px;
+        position: absolute; }
+    .header .header-wrap .header_text {
+      margin-top: 78px;
+      word-spacing: 2px;
+      font-size: 1.2rem;
+      line-height: 1.9rem;
+      width: 47%;
+      color: #2c2f3e; }
+    .header .header-wrap .header_button {
+      margin-top: 75px;
+      padding: 20px;
+      width: 180px;
+      height: 60px;
+      font-size: 1.2rem;
+      font-weight: bold;
+      font-style: 'Source Sans Pro', sans-serif;
+      color: white;
+      background-color: #699900;
+      border: none; }
+
+.section .section_text {
+  text-align: center;
+  margin-top: 45px;
+  font-size: 3.1rem;
+  font-weight: 600;
+  font-family: 'Hind', sans-serif;
+  position: relative; }
+  .section .section_text::after {
+    width: 228px;
+    content: '';
+    background-color: #14a0c7;
+    height: 30px;
+    z-index: -1;
+    bottom: -2px;
+    position: absolute;
+    bottom: 23px;
+    height: 15px;
+    margin-left: -240px;
+    color: #2c2f3c; }
