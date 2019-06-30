@@ -275,6 +275,11 @@ h2.header span {
     background-color: #097774;
 }
 
+.subscription-header,
+.news-wrapper-header {
+    display: none;
+}
+
 .subscription {
     display: flex;
     flex-direction: column;
@@ -357,3 +362,5 @@ footer {
     margin-top: 15px;
     margin-left: 10px;
   }
+
+
