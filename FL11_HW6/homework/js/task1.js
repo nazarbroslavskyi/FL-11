@@ -4,7 +4,6 @@ let two = 2;
 
 while(trueCondition) {
     aX = parseFloat(+prompt('enter the coordinates of the point A \n x = ',''));
-    console.log(aX);
     if(!aX && isFinite(aX)) {
         console.log(`Sorry, but you did not enter the number.
         Reload page and try again`);
