@@ -14,7 +14,6 @@ if(!email) {
             || email === 'admin@gmail.com' && password === 'AdminPass') {
         let chagePassword = confirm('Do you want to change your password?')
         if(chagePassword) {
-            
             let oldPass = prompt('Enter your OLD password:', '')
             if(!oldPass) {
                 alert('Canceled');
